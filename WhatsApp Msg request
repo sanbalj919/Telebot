@@ -1,0 +1,27 @@
+WhatsApp Msg request
+
+http://localhost:7007/ibwa-message
+
+{
+    "results": [
+        {
+            "from": "971547814757",
+            "to": "447491163771",
+            "integrationType": "WHATSAPP",
+            "receivedAt": "2018-09-10T11:57:19.782+0000",
+            "messageId": "ABEGOFkWA5EBAgo6B82cNiWIAMSS1",
+            "pairedMessageId": null,
+            "callbackData": null,
+            "message": {
+                "type": "TEXT",
+                "text": "I would like to know my balance"
+            },
+            "price": {
+                "pricePerMessage": 0.000000,
+                "currency": "HRK"
+            }
+        }
+    ],
+    "messageCount": 1,
+    "pendingMessageCount": 0
+}	
